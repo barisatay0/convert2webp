@@ -1,6 +1,6 @@
-# WebPMaster - Image Conversion API
+# convert2wepb - Image Conversion API
 
-WebPMaster is a Node.js-based server that provides a powerful image conversion service. It allows users to upload images, converts them to the WebP format, and returns them as a downloadable zip archive. The server supports multiple image formats, including HEIC and HEIF. These formats are first converted to JPEG and then processed into WebP format before being included in the zip archive.
+convert2webp is a Node.js-based server that provides a powerful image conversion service. It allows users to upload images, converts them to the WebP format, and returns them as a downloadable zip archive. The server supports multiple image formats, including HEIC and HEIF. These formats are first converted to JPEG and then processed into WebP format before being included in the zip archive.
 
 The API is built with **Express** and uses **Multer** for handling file uploads, **Sharp** for image processing, and **Heic-convert** for converting HEIC/HEIF images to JPEG format.
 
